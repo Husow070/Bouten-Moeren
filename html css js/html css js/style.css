@@ -31,14 +31,39 @@ ul {
   padding: 5px;
   max-width: 800px;
   margin: 5% auto 5% auto;
-  text-align-last: center;
-  
 }
-.mijnclass{
+.mijnclass {
   text-align: center;
   /* width: 130%; */
 }
-
+.meubel1 {
+  width: 25%;
+}
+.meubel2 {
+  width: 25%;
+  float: right;
+}
+.meubel3 {
+  width: 25%;
+  margin-right: 50px;
+}
+.buttoncolor {
+  background-color: rgb(193, 186, 231);
+  font-size:0.875em;
+  margin-top: 83px;
+}
+.buttoncolor1 {
+  background-color: rgb(193, 186, 231);
+  float: right;
+  margin-top: 83px;
+  display: block;
+  font-size:0.875em
+}
+.buttoncolor2{
+  background-color: rgb(193, 186, 231);
+  margin-left: -47px;
+  font-size:0.875em
+}
 /* #box1{
   border-top: 1px solid black;
   border-left: 1px solid black;
