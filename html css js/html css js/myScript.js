@@ -1,15 +1,13 @@
-let modal = document.getElementsByClassName(".myModal")
-let btn = document.getElementsByClassName(".buttoncolor");
-let span = document.getElementsByClassName("close")[0];
+let modal = document.querySelector("myModal")
+let btn = document.querySelector(".buttoncolor");
 
-btn.onclick = function() {
-    modal.style.display = "block";
-  }
-span.onclick = function() {
- modal.style.display = "none";
-  }
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
+
+
+function showPupUp(){
+  console.log('132')
+  const pop = document.querySelector(".modal-content");
+  pop.classList.remove("hide");
+}
+
+btn.addEventListener("click", showPupUp);
+
