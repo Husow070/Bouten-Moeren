@@ -29,7 +29,7 @@ ul {
   background-color: white;
   border: 5px solid black;
   padding: 5px;
-  max-width: 800px;
+  width: 50%;
   margin: 5% auto 5% auto;
 }
 .mijnclass {
@@ -37,10 +37,16 @@ ul {
   /* width: 130%; */
 }
 .meubel1 {
-  width: 25%;
+  width: 20%;
   clear: both;
   height: 180px;
-  
+}
+
+.buttoncolor{
+  background-color: rgb(193, 186, 231);
+  width: auto;
+  font-size: 1em;
+
 }
 .meubel2 {
   width: 25%;
