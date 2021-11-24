@@ -38,31 +38,37 @@ ul {
 }
 .meubel1 {
   width: 25%;
+  clear: both;
+  height: 180px;
+  
 }
 .meubel2 {
   width: 25%;
   float: right;
+  height: 180px;
 }
 .meubel3 {
   width: 25%;
   margin-right: 50px;
 }
-.buttoncolor {
+/* .buttoncolor {
   background-color: rgb(193, 186, 231);
   font-size:0.875em;
-  margin-top: 83px;
-}
+  margin-left: auto;
+  height: 110%;
+} */
 .buttoncolor1 {
   background-color: rgb(193, 186, 231);
+  width: auto;
   float: right;
-  margin-top: 83px;
-  display: block;
-  font-size:0.875em
+  font-size: larger;
+  
 }
 .buttoncolor2{
   background-color: rgb(193, 186, 231);
-  margin-left: -47px;
-  font-size:0.875em
+  margin-left: -3px;
+  font-size:0.875em;
+  font-size: larger;
 }
 /* #box1{
   border-top: 1px solid black;

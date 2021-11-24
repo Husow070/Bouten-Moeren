@@ -1,3 +1,5 @@
+
+
 let modal = document.querySelector("myModal")
 let btn = document.querySelector(".buttoncolor");
 let xclose = document.querySelector(".close");
