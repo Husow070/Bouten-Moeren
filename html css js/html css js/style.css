@@ -31,59 +31,39 @@ ul {
   padding: 5px;
   width: 50%;
   margin: 5% auto 5% auto;
+  overflow: hidden;
 }
 .mijnclass {
   text-align: center;
-  /* width: 130%; */
 }
-.meubel1 {
-  width: 20%;
+.wrapper{
+  clear: both;
+}
+
+.meubel-links-second{
+  float:none
+}
+.meubel-links{
+  margin-left: 10% ;
+  margin-right: 10%;
+  float: left;
+  max-width: 100%;
+}
+.meubel {
+  width: 100px;
   clear: both;
   height: 180px;
 }
 
-.buttoncolor{
-  background-color: rgb(193, 186, 231);
-  width: auto;
-  font-size: 1em;
-
-}
-.meubel2 {
-  width: 25%;
-  float: right;
-  height: 180px;
-}
-.meubel3 {
-  width: 25%;
-  margin-right: 50px;
-}
-/* .buttoncolor {
+.buttoncolor {
   background-color: rgb(193, 186, 231);
   font-size:0.875em;
   margin-left: auto;
   height: 110%;
-} */
-.buttoncolor1 {
-  background-color: rgb(193, 186, 231);
   width: auto;
-  float: right;
-  font-size: larger;
-  
+  font-size: 1em;
 }
-.buttoncolor2{
-  background-color: rgb(193, 186, 231);
-  margin-left: -3px;
-  font-size:0.875em;
-  font-size: larger;
-}
-/* #box1{
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black; 
-  width: 90px;
-  
-} */
+
 
 .hide{
   display:none;
