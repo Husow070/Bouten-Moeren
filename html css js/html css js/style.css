@@ -44,10 +44,9 @@ ul {
   float:none
 }
 .meubel-links{
-  margin-left: 10% ;
-  margin-right: 10%;
+  margin-left: 20% ;
   float: left;
-  max-width: 100%;
+  max-width: 86%;
 }
 .meubel {
   width: 100px;

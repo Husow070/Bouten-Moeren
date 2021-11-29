@@ -1,6 +1,6 @@
+console.log("file loaded")
 
-
-let modal = document.querySelector("myModal")
+let modal = document.querySelector(".myModal")
 let btn = document.querySelector(".buttoncolor");
 let xclose = document.querySelector(".close");
 
