@@ -7,7 +7,7 @@ console.log(xclose);
 
 function showPupUp(){
   const pop = document.querySelector(".modal-content");
-  pop.classList.remove("hide");
+  pop.classList.toggle("hide");
 }
 
 btn.addEventListener("click", showPupUp);
@@ -20,11 +20,17 @@ function closeWindow(){
 
 xclose.addEventListener("click", closeWindow);
 
-function clickHere(){
-  console.log(123)
-  btn.classList.remove("hide");
+// function clickHere() {
+//   console.log(123)
+//   btn.classList.remove("hide");
 
 
-}
+// }
 
-btn.addEventListener("click", clickHere);
+// btn.addEventListener("click", clickHere);
+
+// function myFunction() {
+//   element.classList.toggle(".buttoncolor");
+// }
+
+// btn.addEventListener("click", myFunction);
