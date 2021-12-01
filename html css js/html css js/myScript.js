@@ -1,16 +1,16 @@
-let modal = document.querySelector(".myModal")
-let btn = document.querySelector(".buttoncolor");
-let xclose = document.querySelector(".close");
+let modal = document.querySelectorAll(".myModal")
+let btn = document.querySelectorAll(".buttoncolor");
+let xclose = document.querySelectorAll(".close");
 
-console.log(xclose);
+console.log(btn);
 
 
-function showPupUp(){
-  const pop = document.querySelector(".modal-content");
-  pop.classList.toggle("hide");
+function showPupUp(index){
+  const pop = document.querySelectorAll(".modal-content");
+  pop[index].classList.toggle("hide");
 }
 
-btn.addEventListener("click", showPupUp);
+// btn.addEventListener("click", showPupUp);
 
 function closeWindow(){
   const pop = document.querySelector(".modal-content");
@@ -18,19 +18,15 @@ function closeWindow(){
 
 }
 
-xclose.addEventListener("click", closeWindow);
+// xclose.addEventListener("click", closeWindow);
 
-// function clickHere() {
-//   console.log(123)
-//   btn.classList.remove("hide");
+let btns = 0;
 
+while (btns < btn.length) {
+  btn[btns].addEventListener("click", function(){
+    const index = [].indexOf.call(btn, this);
+    showPupUp(index);
+  });
+  btns++;
+}
 
-// }
-
-// btn.addEventListener("click", clickHere);
-
-// function myFunction() {
-//   element.classList.toggle(".buttoncolor");
-// }
-
-// btn.addEventListener("click", myFunction);
