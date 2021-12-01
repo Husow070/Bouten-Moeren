@@ -49,9 +49,9 @@ ul {
   max-width: 86%;
 }
 .meubel {
-  width: 100px;
+  width: 150px;
   clear: both;
-  height: 180px;
+  height: 200px;
 }
 
 .buttoncolor {
@@ -67,3 +67,7 @@ ul {
 .hide{
   display:none;
 }
+
+/* .small-img{
+  width:199px;
+} */
