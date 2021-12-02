@@ -36,7 +36,7 @@ while (btns < btn.length) {
 
 // let imgDiv = document.querySelector(".x");
 // let image = document.createElement("img");
-// image.src ='img/Shopimg/Meubel1.jpg';
+// image.src ='img/Shopimg/IkeaVarde.jpg';
 // image.style.width = "1000px";
-// // image.classList.add("small-img");
+// image.classList.add("small-img");
 // imgDiv.appendChild(image);
